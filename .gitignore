@@ -25,7 +25,7 @@ wheels/
 .venv/
 venv/
 ENV/
-prompt_book1.md
+
 # Streamlit
 .streamlit/
 secrets.toml
@@ -58,3 +58,8 @@ data/*.json
 
 # Sauvegardes
 docs/old_specs/
+README1.md
+prompt_book1.md
+prompt_book.md
+
+docs/
