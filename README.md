@@ -87,35 +87,3 @@ Avec couverture :
 ```bash
 pytest --cov=src
 ```
-
-## 📂 Structure du Projet
-
-```
-travel-assistant/
-├── src/           # Code source
-│   ├── chatbot/   # Module chatbot
-│   ├── llm/       # Module LLM
-│   └── utils/     # Utilitaires
-├── tests/         # Tests unitaires
-├── docs/          # Documentation
-├── data/          # Données locales
-└── venv/          # Environnement virtuel (ignoré par Git)
-```
-
-## 📝 Documentation
-
-- **Contexte Système** : `docs/system_context.md`
-- **User Stories** : `docs/user_stories.md`
-- **Spécifications** : `docs/specs/`
-
-## 🤝 Contribution
-
-Ce projet suit une méthodologie Agile avec 5 rôles :
-
-- Business Analyst
-- Architect
-- Coder
-- QA
-- DevOps
-
-Voir `prompt_book.md` pour les prompts de chaque rôle.
