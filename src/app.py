@@ -389,7 +389,8 @@ def main():
     load_css()
 
     # Titre principal et Bannière
-    st.image("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1200&auto=format&fit=crop", width=1200)
+    # Image optimisée avec une taille fixe (1200x300) et une qualité réduite pour de meilleures performances
+    st.image("https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=60&w=1200&h=300&auto=format&fit=crop", use_column_width=True)
     st.title("✈️ Travel Assistant Chatbot")
     st.caption("Votre compagnon de voyage intelligent • _Premium Edition_")
 
@@ -398,7 +399,7 @@ def main():
 
     # Rendu du chat
     render_chat()
-
+    
     # Footer
     st.divider()
     st.caption(
