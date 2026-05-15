@@ -1,0 +1,36 @@
+# Core dependencies
+python-dotenv==1.0.0
+
+# Interface Web Conversationnelle (US-002)
+streamlit==1.31.0
+
+# Traitement de documents (US-003)
+pypdf==4.1.0
+
+# LLM & Robustesse (US-004)
+google-generativeai==0.4.0
+tenacity==8.2.3
+
+# Interaction Vocale (US-005)
+gTTS==2.5.1
+audio-recorder-streamlit==0.0.10
+SpeechRecognition==3.10.1
+
+# Analyse de sentiment (US-006)
+textblob==0.18.0.post0
+textblob-fr==0.2.0
+
+# Future dependencies (commentées pour MVP)
+# streamlit==1.31.0          # Interface web conversationnelle
+# google-generativeai==0.4.0 # LLM Google Gemini (gratuit)
+# langchain==0.1.9           # Framework conversationnel
+# openai==1.12.0             # Alternative LLM OpenAI
+# requests==2.31.0           # Appels API externes
+
+# Testing
+pytest==8.0.0
+pytest-cov==4.1.0
+
+# Code Quality
+black==24.1.1
+flake8==7.0.0
